@@ -87,10 +87,10 @@ h3{
     color: $grey;
     @extend.form;
 
-    &:hover{
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
+        &:hover{
+            padding-top: 10px;
+            padding-bottom: 70px;
+        }
 }
 
 .benefits{
@@ -98,13 +98,82 @@ h3{
     color: $light;
     @extend.form;
 
-    &:hover{
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
+        &:hover{
+            padding-top: 10px;
+            padding-bottom: 70px;
+        }
 }
 
+#zen-requirements{
 
+        @include block($dark-green);
+        padding-left: 50px;
+        padding-right: 50px;
+        background-image: url("../img/bg-requirements.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        &:hover{
+            padding-top: 10px;
+            padding-bottom: 80px;
+        }
+
+}
+
+.design-archives{
+    display: none;
+}
+
+.design-selection{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: $dark-green;
+    color: $light;
+
+    ul{
+        list-style-type: none;
+
+        a{
+            color: $light-green;
+        }
+    }
+
+}
+.zen-resources{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: $dark-blue;
+    color: $light;
+
+    ul{
+        list-style-type: none;
+
+        a{
+            color: $light-green;
+        }
+    }
+
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    height: 160px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: $beige;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+
+    a{
+    color: $dark-green;
+    margin: 100px 180px 0px -76px;
+    }
+}
 
 
 

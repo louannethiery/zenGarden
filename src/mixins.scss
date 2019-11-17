@@ -6,4 +6,5 @@
 @mixin block($color) {        
     border: 1px solid $dark;
     background: $color;
+    padding-bottom: 40px ;
 }

@@ -61,12 +61,14 @@ h3 {
 .preamble {
   border: 1px solid #2C3A47;
   background: #146341;
+  padding-bottom: 40px;
   color: #F6EFE5;
 }
 
 #zen-supporting #zen-explanation {
   border: 1px solid #2C3A47;
   background: #146341;
+  padding-bottom: 40px;
   padding-left: 50px;
   padding-right: 50px;
   background-image: url(https://www.color-stickers.com/1444-thickbox_default/tableau-zen-galets.jpg);
@@ -79,21 +81,87 @@ h3 {
 .participation {
   border: 1px solid #2C3A47;
   background: #F6EFE5;
+  padding-bottom: 40px;
   color: #325050;
 }
 .participation:hover {
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 
 .benefits {
   border: 1px solid #2C3A47;
   background: #146341;
+  padding-bottom: 40px;
   color: white;
 }
 .benefits:hover {
   padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+#zen-requirements {
+  border: 1px solid #2C3A47;
+  background: #146341;
   padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url("../img/bg-requirements.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#zen-requirements:hover {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.design-archives {
+  display: none;
+}
+
+.design-selection {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #146341;
+  color: white;
+}
+.design-selection ul {
+  list-style-type: none;
+}
+.design-selection ul a {
+  color: #BCEAD1;
+}
+
+.zen-resources {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #154463;
+  color: white;
+}
+.zen-resources ul {
+  list-style-type: none;
+}
+.zen-resources ul a {
+  color: #BCEAD1;
+}
+
+footer {
+  background-image: url(../img/footer.jpg);
+  height: 160px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F6EFE5;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+}
+footer a {
+  color: #146341;
+  margin: 100px 180px 0px -76px;
 }
 
 /*# sourceMappingURL=style.css.map */
