@@ -52,7 +52,7 @@ h3 {
   background-color: #2C8A62;
 }
 
-.form, .preamble {
+.form, .benefits, .participation, .preamble {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -74,6 +74,26 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: right;
+}
+
+.participation {
+  border: 1px solid #2C3A47;
+  background: #F6EFE5;
+  color: #325050;
+}
+.participation:hover {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.benefits {
+  border: 1px solid #2C3A47;
+  background: #146341;
+  color: white;
+}
+.benefits:hover {
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

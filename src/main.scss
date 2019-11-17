@@ -81,3 +81,30 @@ h3{
         text-align: right;
     }
 }
+
+.participation{
+    @include block($beige);
+    color: $grey;
+    @extend.form;
+
+    &:hover{
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+.benefits{
+    @include block($dark-green);
+    color: $light;
+    @extend.form;
+
+    &:hover{
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
