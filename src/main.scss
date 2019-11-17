@@ -36,24 +36,7 @@ h3{
     background-image: url("../img/background.jpg");
     background-size: 100%;
     height: 100vh;
-}
-
-.viewall{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 60%;
-    
-    a{
-        @include btn($dark);
-        border: solid 1.5px $dark-green;
-
-        &:hover{
-            color: $light;
-            background-color: $green;
-        }
-    }
+    position: relative;
 }
 
 .form{
@@ -61,6 +44,14 @@ h3{
     flex-direction: column;
     text-align: center;
 }
+
+.summary{
+    @include block($dark-blue);
+    color: $beige;
+    @extend.form;
+    padding-top: 40px;
+}
+
 
 .preamble{
     @include block($dark-green);
@@ -128,8 +119,8 @@ h3{
 
 .design-selection{
     display: flex;
-    align-items: baseline;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px 40px;
     background-color: $dark-green;
     color: $light;
 
@@ -144,8 +135,8 @@ h3{
 }
 .zen-resources{
     display: flex;
-    align-items: baseline;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px 40px;
     background-color: $dark-blue;
     color: $light;
 

@@ -33,29 +33,21 @@ h3 {
   background-image: url("../img/background.jpg");
   background-size: 100%;
   height: 100vh;
+  position: relative;
 }
 
-.viewall {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  top: 60%;
-}
-.viewall a {
-  color: #2C3A47;
-  padding: 15px 40px;
-  border: solid 1.5px #146341;
-}
-.viewall a:hover {
-  color: white;
-  background-color: #2C8A62;
-}
-
-.form, .benefits, .participation, .preamble {
+.form, .benefits, .participation, .preamble, .summary {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.summary {
+  border: 1px solid #2C3A47;
+  background: #154463;
+  padding-bottom: 40px;
+  color: #F6EFE5;
+  padding-top: 40px;
 }
 
 .preamble {
@@ -123,8 +115,8 @@ h3 {
 
 .design-selection {
   display: flex;
-  align-items: baseline;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 40px 40px;
   background-color: #146341;
   color: white;
 }
@@ -137,8 +129,8 @@ h3 {
 
 .zen-resources {
   display: flex;
-  align-items: baseline;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 40px 40px;
   background-color: #154463;
   color: white;
 }
