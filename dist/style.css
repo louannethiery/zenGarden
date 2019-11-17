@@ -35,4 +35,16 @@ h3 {
   height: 100vh;
 }
 
+.form, .preamble {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.preamble {
+  border: 1px solid #2C3A47;
+  background: #146341;
+  color: #F6EFE5;
+}
+
 /*# sourceMappingURL=style.css.map */
