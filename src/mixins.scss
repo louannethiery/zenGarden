@@ -1,10 +1,12 @@
-@mixin btn($color){
-    color: $color;
-    padding: 15px 40px;
-}
 
 @mixin block($color) {        
     border: 1px solid $dark;
     background: $color;
     padding-bottom: 40px ;
+}
+
+@mixin flex (){
+    display: flex;
+    flex-direction: column;
+
 }
