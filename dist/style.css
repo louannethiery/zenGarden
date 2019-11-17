@@ -35,6 +35,23 @@ h3 {
   height: 100vh;
 }
 
+.viewall {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 60%;
+}
+.viewall a {
+  color: #2C3A47;
+  padding: 15px 40px;
+  border: solid 1.5px #146341;
+}
+.viewall a:hover {
+  color: white;
+  background-color: #2C8A62;
+}
+
 .form, .preamble {
   display: flex;
   flex-direction: column;
@@ -45,6 +62,18 @@ h3 {
   border: 1px solid #2C3A47;
   background: #146341;
   color: #F6EFE5;
+}
+
+#zen-supporting #zen-explanation {
+  border: 1px solid #2C3A47;
+  background: #146341;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url(https://www.color-stickers.com/1444-thickbox_default/tableau-zen-galets.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */

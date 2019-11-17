@@ -1,4 +1,9 @@
-@mixin block() {        
+@mixin btn($color){
+    color: $color;
+    padding: 15px 40px;
+}
+
+@mixin block($color) {        
     border: 1px solid $dark;
-    background: $dark-green;
+    background: $color;
 }
